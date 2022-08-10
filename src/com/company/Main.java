@@ -20,7 +20,7 @@ public class Main {
         System.out.println(variable7);
         char variable8 = 'a';
         System.out.println(variable8);
-        String variable9 = "Holle i am string";
+        String variable9 = "Hello i am string";
         System.out.println(variable9);
     }
 }
