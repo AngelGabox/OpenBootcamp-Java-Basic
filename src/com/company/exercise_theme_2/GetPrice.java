@@ -1,4 +1,4 @@
-package com.company.exercise_3;
+package com.company.exercise_theme_2;
 import java.util.Scanner;
 
 public class GetPrice {
