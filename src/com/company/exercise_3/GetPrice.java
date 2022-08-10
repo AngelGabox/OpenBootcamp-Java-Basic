@@ -1,4 +1,4 @@
-package com.company;
+package com.company.exercise_3;
 import java.util.Scanner;
 
 public class GetPrice {
