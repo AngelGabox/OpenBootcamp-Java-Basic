@@ -20,4 +20,25 @@ public class SmartWatch extends SmartDevice{
         this.gyroscope = gyroscope;
         this.pulsometer = pulsometer;
     }
+
+    @Override
+    public String toString() {
+        return "SmartWatch{" +
+                "speaker=" + speaker +
+                ", compass=" + compass +
+                ", accelerometer=" + accelerometer +
+                ", gyroscope=" + gyroscope +
+                ", pulsometer=" + pulsometer +
+                ", in=" + in +
+                ", ram=" + ram +
+                ", mAh=" + mAh +
+                ", tactile=" + tactile +
+                ", stereoPort=" + stereoPort +
+                ", stereoSpeakers=" + stereoSpeakers +
+                ", waterProtection=" + waterProtection +
+                ", fingerprintReader=" + fingerprintReader +
+                ", bluetooth=" + bluetooth +
+                ", GPS=" + GPS +
+                '}';
+    }
 }

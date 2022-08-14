@@ -20,4 +20,25 @@ public class SmartPhone extends SmartDevice{
         this.pixelsCamera = pixelsCamera;
         this.flash = flash;
     }
+
+    @Override
+    public String toString() {
+        return "SmartPhone{" +
+                "typeUSB='" + typeUSB + '\'' +
+                ", numberCameras=" + numberCameras +
+                ", frontCamera=" + frontCamera +
+                ", pixelsCamera=" + pixelsCamera +
+                ", flash=" + flash +
+                ", in=" + in +
+                ", ram=" + ram +
+                ", mAh=" + mAh +
+                ", tactile=" + tactile +
+                ", stereoPort=" + stereoPort +
+                ", stereoSpeakers=" + stereoSpeakers +
+                ", waterProtection=" + waterProtection +
+                ", fingerprintReader=" + fingerprintReader +
+                ", bluetooth=" + bluetooth +
+                ", GPS=" + GPS +
+                '}';
+    }
 }
